@@ -13,13 +13,42 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
+<!-- Body -->
+<!-- The body is a flexbox container with a column direction to stack the elements vertically -->
+<body class="d-flex flex-column min-vh-100">
+    <!-- Navigation Bar -->
+    <nav>Navigation</nav>
+    <!-- Header with carousel -->
+    <header class="container">
+        <div class="row">
+            <div class="col-12 col-xl-6">Boardwalk Hames intro text section</div>
+            <div class="col-12 col-xl-6">carousel</div>
+        </div>
+    </header>
+    <!-- Main element to hold all key sections of the home page. it's not part of the grid structure -->
+    <main>
+        <!-- Services section -->
+        <section class="container">
+            <div class="row">
+                <div class="col-12">Services section heading</div>
+                <div class="col-12 col-md-6 col-xl-3">Service Card</div>
+                <div class="col-12 col-md-6 col-xl-3">Service Card</div>
+                <div class="col-12 col-md-6 col-xl-3">Service Card</div>
+                <div class="col-12 col-md-6 col-xl-3">Service Card</div>
+    </main>
 
-<body>
-    <h1>Boardwalk Games</h1>
-    <h2>Welcome to Boardwalk Games!</h2>
-    <p class="sub-heading-color">Here you can find a collection of fun and engaging games to play with friends and family.</p>
-    <h3>Available Games</h3>
-
+    <!-- footer section -->
+    <!-- mt-auto added to push footer to the bottom of the page -->
+    <footer class="mt-auto">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col">Contact section heading</div>
+                <!-- Contact info -->
+                <div class="col-12 col-md-6 col-xl-4">Contact info & social links</div>
+                <!-- Opening times -->
+                <div class="col-12 col-md-6 col-xl-4">Opening times</div>
+    </footer>
+    
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
