@@ -1,64 +1,31 @@
-/* Import Inter from Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
-
-/* Example: If you have Makondo as a web font, import it here */
-/* @font-face {
-    font-family: 'Makondo';
-    src: url('/fonts/Makondo.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-} */
+/* Import Inter & Makondo from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Macondo&display=swap');
 
 :root {
     --color-dark-brown: #3A2620;
     --color-light-brown: #AA9581;
-    --color-dark-blue: #A16A8E;
+    --color-dark-blue: #073a7d;
     --color-light-blue: #7A9FC2;
     --color-white: #ffffff;
     --color-black: #000000;
 
-    --font-boardgame: 'Makondo', sans-serif;
+    --font-boardgame: 'Makondo', cursive;
     --font-body: 'Inter', sans-serif;
 }
 
 body {
   font-family: var(--font-body);
-  background: var(--color-light-brown);
-  color: var(--color-dark-brown);
+  background: var(--color-light-blue);
+  color: var(--color-black);
   margin: 0;
   padding: 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-boardgame);
-  color: var(--color-dark-blue);
+  color: var(--color-dark-brown);
   margin-top: 0;
 }
 
-a {
-  color: var(--color-light-blue);
-  text-decoration: none;
-}
-
-a:hover {
-  color: var(--color-dark-blue);
-  text-decoration: underline;
-}
-
-.button, button {
-  font-family: var(--font-boardgame);
-  background: var(--color-dark-blue);
-  color: #fff;
-  border: none;
-  padding: 0.5em 1.5em;
-  border-radius: 8px;
-  cursor: pointer;
-  transition: background 0.2s;
-}
-
-.button:hover, button:hover {
-  background: var(--color-light-blue);
-  color: var(--color-dark-brown);
-}
 
 /* Add more styles as needed */
