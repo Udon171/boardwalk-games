@@ -4,7 +4,7 @@
 :root {
     --color-dark-brown: #3A2620;
     --color-light-brown: #AA9581;
-    --color-dark-blue: #073a7d;
+    --color-dark-blue: #416a8e;
     --color-light-blue: #7A9FC2;
     --color-white: #ffffff;
     --color-black: #000000;
@@ -15,17 +15,13 @@
 
 body {
   font-family: var(--font-body);
-  background: var(--color-light-blue);
-  color: var(--color-black);
-  margin: 0;
-  padding: 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-boardgame);
   color: var(--color-dark-brown);
-  margin-top: 0;
 }
 
-
-/* Add more styles as needed */
+.sub-heading0color {
+  color: var(--color-dark-blue);
+}
