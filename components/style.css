@@ -26,7 +26,15 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--color-dark-blue);
 }
 
+/* Navbar */
 
+#navbar {
+    background-color: var(--color-brown);
+}
+
+#navbar .logo {
+    width: 30px;
+}
 /*
 .container,
 .row {
