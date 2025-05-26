@@ -26,6 +26,8 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--color-dark-blue);
 }
 
+
+/*
 .container,
 .row {
   border: 2px solid var(--black);
@@ -34,4 +36,4 @@ h1, h2, h3, h4, h5, h6 {
 .col-12 {
   border: 2px solid var(--white);
   background-color: var(--color-grey);
-}
+} */
