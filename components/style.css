@@ -2,15 +2,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Macondo&display=swap');
 
 :root {
-    --color-brown: #3A2620;
-    --color-grey: #AA9581;
-    --color-dark-blue: #416a8e;
-    --color-light-blue: #7A9FC2;
-    --white: #ffffff;
-    --black: #000000;
+    --color-brown: #3A2620;  /* primary colour */
+    --color-light-brown: #AA9581;  /* secondary colour */
+    --color-dark-blue: #416a8e;  /* Highlight colour */
+    --color-light-blue: #7A9FC2;  /* Highlight light colour */
+    --white: #ffffff;  /* White colour */
+    --black: #000000;  /* Black colour */
 
-    --font-boardgame: 'Makondo', cursive;
-    --font-body: 'Inter', sans-serif;
+    --font-boardgame: 'Makondo', cursive; /* Prime font */
+    --font-body: 'Inter', sans-serif; /* Secondary font */
 }
 
 body {
@@ -52,20 +52,60 @@ h2 {
 /* Header */
 
 #header .lead {
-    font-family: var(--secondary-font);
+    font-family: var(--font-body);
 }
 
 /* Services */
 
 #services .card-footer {
     font-weight: bold;
-    color: var(--highlight-color);
+    color: var(--color-brown);
     background-color: transparent;
 }
 
 #services .card {
     margin-bottom: 1.5rem;
 }
+
+/* Game library cards */
+
+#new-games .card,
+#fav-games .card {
+    border: none;
+}
+
+/* Footer / contact */
+
+#contact {
+    background-color: var(--color-brown);
+    color: white;
+    padding-bottom: 3rem;
+}
+
+#contact h2 {
+    color: white;
+}
+
+#contact .sub-heading-color {
+    color: var(--color-light-blue);
+}
+
+#contact i {
+    color: var(--color-light-brown);
+    font-size: 1.2rem;
+    margin-right: 15px;
+}
+
+#contact .social-links i {
+    color: var(--color-light-blue);
+    font-size: 1.9rem;
+    transition: color 0.3s ease-in-out;
+}
+
+#contact .social-links i:hover {
+    color: var(--color-light-brown);
+}
+
 
 /* Grid visualisation CSS for testing */
 
