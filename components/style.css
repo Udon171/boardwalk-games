@@ -106,6 +106,9 @@ h2 {
     color: var(--color-light-brown);
 }
 
+#contact .table-dark * {
+    background-color: transparent;
+}
 
 /* Grid visualisation CSS for testing */
 
