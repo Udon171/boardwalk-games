@@ -41,7 +41,7 @@ h2 {
 
 /* Buttons */
 
-.custom-button-filled {
+.custom-button-filled  {
     border: 2px solid var(--color-dark-blue);
     background-color: var(--color-dark-blue);
     color: white;
@@ -56,7 +56,7 @@ h2 {
 .custom-button-outline {
     border: 3px solid var(--color-dark-blue);
     padding: 7px 25px;
-    color: var(--highlight-color)
+    color: var(--color-dark-blue)
 }
 
 .custom-button-outline:hover {
