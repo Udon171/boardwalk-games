@@ -55,9 +55,9 @@ h2 {
 }
 
 .custom-button-outline {
-    border: 3px solid var(--color-dark-blue);
-    padding: 7px 25px;
-    color: var(--color-dark-blue)
+    border: 3px solid var(--color-dark-blue) !important;
+    padding: 7px 25px !important;
+    color: var(--color-dark-blue) !important;
 }
 
 .custom-button-outline:hover {
@@ -82,6 +82,10 @@ h2 {
     font-family: var(--font-body);
 }
 
+#header .btn {
+  margin-bottom: 2rem;
+}
+
 /* Services */
 
 #services .card-footer {
@@ -102,7 +106,6 @@ h2 {
 }
 
 /* Events section */
-
 /* Custom CSS for the blue box */
 .discount-box {
   background-color: var(--color-light-blue) !important; /* Steel blue color similar to the image */
