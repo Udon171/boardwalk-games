@@ -42,9 +42,9 @@ h2 {
 /* Buttons */
 
 .custom-button-filled  {
-    border: 2px solid var(--color-dark-blue);
-    background-color: var(--color-dark-blue);
-    color: white;
+    border: 2px solid var(--color-dark-blue) !important;
+    background-color: var(--color-dark-blue) !important;
+    color: white !important;
 }
 
 .custom-button-filled:hover {
@@ -60,8 +60,8 @@ h2 {
 }
 
 .custom-button-outline:hover {
-    background-color: var(--color-dark-blue);
-    color: white
+    background-color: var(--color-dark-blue) !important;
+    color: white !important;
 }
 
 /* Navbar */
@@ -172,9 +172,8 @@ h2 {
     #services .card-body {
         min-height: 191px;
     #events .discount-box {
-        font-size: 1.2rem !important; /* Increase font size for better visibility */
-        padding: 15px 20px !important; /* Increase padding for a more spacious look */
-    }
+        font-size: 1.2rem !important; 
+        padding: 15px 20px !important; 
   }
 }
 
@@ -184,8 +183,8 @@ h2 {
     #services .card-body {
         min-height: auto;
     #events .discount-box {
-        font-size: 1.3rem !important; /* Increase font size for better visibility */
-        padding: 20px 25px !important; /* Increase padding for a more spacious look */
+        font-size: 1.3rem !important; 
+        padding: 20px 25px !important; 
     }
   }
 }
@@ -204,4 +203,4 @@ h2 {
     #services .card-body {
         min-height: 195px;
     }
-}
+} 
