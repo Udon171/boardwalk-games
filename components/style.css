@@ -172,8 +172,8 @@ h2 {
     #events .discount-box {
         font-size: 1.2rem !important; /* Increase font size for better visibility */
         padding: 15px 20px !important; /* Increase padding for a more spacious look */
-    
     }
+  }
 }
 
 /* Large devices (small laptops, 992px and up) */
@@ -185,6 +185,7 @@ h2 {
         font-size: 1.3rem !important; /* Increase font size for better visibility */
         padding: 20px 25px !important; /* Increase padding for a more spacious look */
     }
+  }
 }
 
 /* xl devices (large desktops, 1200px and up) */
