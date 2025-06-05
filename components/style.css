@@ -100,6 +100,19 @@ h2 {
     border: none;
 }
 
+/* Events section */
+
+/* Custom CSS for the blue box */
+.discount-box {
+  background-color: var(--color-light-blue) !important; /* Steel blue color similar to the image */
+  color: var(--white) !important; /* White text */
+  padding: 10px 15px !important; /* Padding for spacing */
+  border-radius: 5px !important; /* Rounded corners */
+  font-size: 0.9rem !important; /* Slightly smaller font size */
+  text-align: center !important; /* Center the text */
+  width: fit-content !important; /* Fit content width */
+  }
+
 /* Footer / contact */
 
 #contact {
@@ -156,6 +169,10 @@ h2 {
     /* Make all service cards the same height for consistency */
     #services .card-body {
         min-height: 191px;
+    #events .discount-box {
+        font-size: 1.2rem !important; /* Increase font size for better visibility */
+        padding: 15px 20px !important; /* Increase padding for a more spacious look */
+    
     }
 }
 
@@ -164,6 +181,9 @@ h2 {
     /* Make all service cards the same height for consistency */
     #services .card-body {
         min-height: auto;
+    #events .discount-box {
+        font-size: 1.3rem !important; /* Increase font size for better visibility */
+        padding: 20px 25px !important; /* Increase padding for a more spacious look */
     }
 }
 
