@@ -112,6 +112,8 @@ h2 {
   border-radius: 5px !important; /* Rounded corners */
   font-size: 0.9rem !important; /* Slightly smaller font size */
   text-align: center !important; /* Center the text */
+  width: -webkit-fit-content !important;
+  width: -moz-fit-content !important;
   width: fit-content !important; /* Fit content width */
   }
 
@@ -140,6 +142,8 @@ h2 {
 #contact .social-links i {
     color: var(--color-light-blue);
     font-size: 1.9rem;
+    -webkit-transition: color 0.3s ease-in-out;
+    -o-transition: color 0.3s ease-in-out;
     transition: color 0.3s ease-in-out;
 }
 
@@ -151,19 +155,6 @@ h2 {
     background-color: transparent;
 }
 
-/* Grid visualisation CSS for testing */
-
-/*
-.container,
-.row {
-  border: 2px solid var(--black);
-}
-
-.col-12 {
-  border: 2px solid var(--white);
-  background-color: var(--color-grey);
-} */
-
 /* Media queries */
 
 /* Medium devices (tablets, 768px and up) */
@@ -171,9 +162,6 @@ h2 {
     /* Make all service cards the same height for consistency */
     #services .card-body {
         min-height: 191px;
-    #events .discount-box {
-        font-size: 1.2rem !important; 
-        padding: 15px 20px !important; 
   }
 }
 
@@ -182,10 +170,6 @@ h2 {
     /* Make all service cards the same height for consistency */
     #services .card-body {
         min-height: auto;
-    #events .discount-box {
-        font-size: 1.3rem !important; 
-        padding: 20px 25px !important; 
-    }
   }
 }
 
